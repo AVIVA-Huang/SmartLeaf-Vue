@@ -1,0 +1,134 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+		    "path" : "pages/signIn/signIn",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/center/center",
+			"style": {
+				"navigationBarTitleText": "个人中心",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+            "path" : "pages/light/light",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "光照管理",
+                "enablePullDownRefresh": false
+            }
+            
+        },
+		{
+		    "path" : "pages/temperature/temperature",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "温度管理",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},
+		{
+		    "path" : "pages/wet/wet",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "湿度管理",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+        ,{
+            "path" : "pages/myInfo/myInfo",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "个人信息",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/aboutUs/aboutUs",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "关于我们",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/feedback/feedback",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "意见反馈",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/passwordModify/passwordModify",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "修改密码",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uView",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+	    "color": "#909399",
+	    "selectedColor": "#36ab60",
+	    "borderStyle": "black",
+	    "backgroundColor": "#ffffff",
+	    "list": [{
+	        "pagePath": "pages/index/index",
+	        "iconPath": "static/images/index.png",
+	        "selectedIconPath": "static/images/index-selected.png",
+	        "text": "首页"
+	    },
+		{
+		    "pagePath": "pages/light/light",
+		    "iconPath": "static/images/light.png",
+		    "selectedIconPath": "static/images/light-selected.png",
+		    "text": "光照管理"
+		},
+		{
+		    "pagePath": "pages/temperature/temperature",
+		    "iconPath": "static/images/temp.png",
+		    "selectedIconPath": "static/images/temp-selected.png",
+		    "text": "温度管理"
+		},
+		{
+		    "pagePath": "pages/wet/wet",
+		    "iconPath": "static/images/wet.png",
+		    "selectedIconPath": "static/images/wet-selected.png",
+		    "text": "湿度管理"
+		},
+		{
+	        "pagePath": "pages/center/center",
+	        "iconPath": "static/images/center.png",
+	        "selectedIconPath": "static/images/center-selected.png",
+	        "text": "个人信息"
+	    }]
+	}
+}
